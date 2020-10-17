@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+    .name{
+        background: url("../images/gdesign2.jpg");
+        background-position: center center;
+        background-repeat: space;
+        background-size: cover;
+        height: 100vh;
+        padding: 30px;
+        text-align: center;
+    }
+    .fname{
+        font-size: 45px;
+        color: honeydew;
+        text-shadow:2px 2px 5px black;
+        text-align: center;
+        margin-top: 120px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .motto{
+        font-style: italic;
+        font-size: 20px;
+        color: honeydew;
+        text-shadow:2px 2px 2px black;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .button{
+        text-shadow: 2px 2px 2px black;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        padding: 5px 15px;
+        color: white;
+        text-decoration: none;
+        border-color: orange;
+        background-color: rgb(37, 23, 6);
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .button:hover{
+        color: orange;
+    }
+    .navbar{
+        display: inline-block;
+        float: right;
+    }
+    .navbar li{
+        font-size: 20px;
+        list-style: none;            
+        float: right;
+        position: relative;
+        margin: 20px;
+        margin-top: 15px
+                   
+    }
+    .navbar li a{
+        color: aliceblue;
+        text-decoration: none;
+        text-shadow: 2px 2px 3px black;
+        float: left;
+        margin-top: -100px;  
+    }
+    .navbar li a:hover{
+        color: coral;
+    }
+    .logo{
+        margin-right: 90%;
+        width: 150px;
+    }
+    .eback{
+        background: url("../images/chalkboard.jpg");
+        background-position: center center;
+        background-repeat: space;
+        background-size: cover;
+        height: 100vh;
+        padding: 35px;
+        margin: 0 auto;
+    }
+    .secone{
+        padding: 5px;
+        margin-top: 50px;
+        margin: 25px auto;
+        border-top: 2px dashed white;
+        width: 75%;
+        align-items: center;
+        height: 800px;
+    }
+    .educ{
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        text-shadow: 1px 1px 2px black;
+    }
+    .studiesA{
+        margin-top: 25px;
+        font-size: 20px;
+        color:white;
+        float: left;
+        margin-left: 20%;
+    }
+    .classA{
+        font-size: 25px;
+        font-style: italic;
+        font-family: cursive;
+        text-shadow: 1px 1px 2px black;
+    }
+    .skillslogo{
+        margin-top: -10px;
+        height: 120px;
+        float: right;
+        margin-right: 35%;
+    }
+    .dummya{
+        clear: both;
+    }
+    .studiesB{
+        margin-top: 50px;
+        font-size: 20px;
+        color:white;
+        float: right;
+        text-align: right;
+        margin-right: 20%;
+    }
+    .classB{
+        font-size: 25px;
+        font-style: italic;
+        font-family: cursive;
+        text-shadow: 1px 1px 2px black;
+    }
+    .launion{
+        margin-top: 40px;
+        height: 120px;
+        float: left;
+        margin-left: 35%;
+    }
+    .studiesC{
+        margin-top: 50px;
+        font-size: 20px;
+        color:white;
+        float: left;
+        margin-left: 20%;
+    }
+    .classC{
+        font-size: 25px;
+        font-style: italic;
+        font-family: cursive;
+        text-shadow: 1px 1px 2px black;
+    }
+    .pxlogo{
+        margin-top: 20px;
+        height: 120px;
+        float: right;
+        margin-right: 35%;
+    } 
+    .serve{
+        height: 450px;
+        padding: 30px;
+        background: url("../images/services.jpg");
+        background-position: center center;
+        background-repeat: space;
+        background-size: cover;
+        height: 100vh;
+    }  
+    .sectwo{
+        padding: 5px;
+        margin-top: 50px;
+        margin: 25px auto;
+        border-top: 2px dashed white;
+        width: 75%;
+        align-items: center;
+        height: 800px;
+        }
+    
+    .services{
+        font-size: 40px;
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        text-shadow: 1px 1px 2px black;
+    }
+    .graphiclogo{
+        width: 250px;
+        margin-left: 5%;
+    }
+    .video{
+        width: 250px;
+        text-align: center;
+        margin-left: 11%;
+    }
+    .threelogo{
+        width: 250px;
+        margin-left: 10%;
+        padding: 10px;
+    
+    }
+    .serviceone{
+        text-align: center;
+        font-size: 20px;
+        list-style: none;
+        margin-left: -67%;
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;             
+    }
+    .servicetwo{
+        text-align: center;
+        font-size: 20px;
+        list-style: none;
+        margin-top: -90px;
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;             
+    }
+    .servicethree{
+        text-align: center;
+        font-size: 20px;
+        list-style: none;
+        margin-top: -68px; 
+        margin-left: 68%;
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+    }
+    .contacts{  
+        padding: 20px;
+        margin-top: 25px;
+        margin: 50px auto 150px auto;
+        border-top: 2px dashed black;
+        width: 75%;
+        align-items: center;
+        height: 400px;
+    }
+    .details{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        text-shadow: 1px 1px 2px black;
+    }
+    input,textarea{
+        display: block;
+        width: 400px;
+        margin: 3px 5px;
+        margin-left: 60%;
+    } 
+    .condet{
+        margin-top: -21.5%;
+        font-size: 16px;
+        text-align: right;
+        width: 59%;
+        line-height: 20px;
+    }
+    .buttonone {
+        margin-top: -12%;
+        padding: 5px;
+    }
+    .padala{
+        text-shadow: 2px 2px 2px black;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        padding: 5px 15px;
+        color: white;
+        text-decoration: none;
+        border-color: orange;
+        background-color: rgb(37, 23, 6);
+        margin-top: 500px;
+        width: 65px;
+        margin-left: 79%;
+    }
+    .copyright{
+        margin-top: 50px;
+        padding: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .cwd{
+        margin-top: 10px;
+        font-style: italic;
+    }
+    .container{
+        margin-top: 10px;
+    }
+    .social{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .facebook{
+        width: 50px;
+        margin: 0 5px;
+    }
+    .insta{
+        width: 50px;
+    }
+    .twit{
+        margin: 0 5px;
+        width: 50px;
+        margin: 0 5px;
+    }
